@@ -35,12 +35,15 @@ body {
   font-weight: 600;
   font-size: 12px;
   text-align: center;
+  white-space: nowrap;
+  padding: 17px;
   letter-spacing: -0.06em;
   color: #fff;
 }
 .box-tables__rows {
   border: 1px solid #ccd6ff;
   width: auto;
+  white-space: nowrap;
   height: 40px;
   font-weight: 600;
   background-color: #f3f6ff;
