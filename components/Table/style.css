@@ -67,6 +67,10 @@ body {
   letter-spacing: -0.06em;
   color: #555;
 }
+.box-tables__rows_every1 {
+  text-align: left;
+  padding-left: 17px;
+}
 .box-tables__rows_modify {
   background: #fff;
   border: none;
