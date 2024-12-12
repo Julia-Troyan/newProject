@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="box-modal">
+    <div class="box-modal__content">
+      <span class="box-modal__content_close"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1.4 9.99999L0 8.59999L3.6 4.99999L0 1.42499L1.4 0.0249939L5 3.62499L8.575 0.0249939L9.975 1.42499L6.375 4.99999L9.975 8.59999L8.575 9.99999L5 6.39999L1.4 9.99999Z"
+            fill="#FF0000" />
+        </svg>
+      </span>
+      <div class="box-modal__form">
+        <div class="box-modal__form_head">
+          <h4 class="box-modal__content_head">Дата экзамена:</h4>
+        <input class="box-modal__input" type="date" placeholder="дд.мм.гггг" style="
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: -0.06em;
+      text-align: left;
+      color: #7e77db;
+    ">
+        </div>
+        <div class="box-modal__form_head">
+        <h4 class="box-modal__content_head">Имя стажера:</h4>
+        <input class="box-modal__input" type="text" placeholder="Введите имя и фамилию стажера">
+      </div>
+      <div class="box-modal__form_head">
+        <h4 class="box-modal__content_head">Форма обучения:</h4>
+        <input class="box-modal__input" type="text" placeholder="Форма обучения">
+      </div>
+      <div class="box-modal__form_head">
+        <h4 class="box-modal__content_head">Попытка:</h4>
+        <input placeholder="Выберите количество попыток" class="box-modal__input" type="text" list="options">
+        <datalist id="options">
+          <option value="Вариант 1"></option>
+          <option value="Вариант 2"></option>
+          <option value="Вариант 3"></option>
+        </datalist>
+      </div>
+      <div class="box-modal__form_head">
+        <h4 class="box-modal__content_head">ФИ обучающего / обучающих:</h4>
+        <input class="box-modal__input box-modal__input_svg" type="text" placeholder="Выберите обучающего"> 
+      </div>
+      <div class="box-modal__form_head">
+        <h4 class="box-modal__content_head">ФИ принимающего внутреннее ТЗ:</h4>
+        <input class="box-modal__input box-modal__input_svg" type="text" placeholder="Выберите принимающего внутреннее ТЗ">
+      </div>
+      <div class="box-modal__form_head">
+        <h4 class="box-modal__content_head">Примечание:</h4>
+        <input class="box-modal__input" type="text" placeholder="Выберите обучающего">
+      </div>
+        <button class="box-modal__content_button">Добавить</button>
+      </div>
+    </div>
+     </div>
+</body>
+
+</html>
